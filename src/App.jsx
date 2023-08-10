@@ -1,10 +1,10 @@
 
 import './App.css';
 
-function App() {
+const App =  () => {
   return (
-    <div>
-      
+    <div className='calculator__grid'>
+
     </div>
   );
 }
