@@ -1,8 +1,13 @@
 *, *::after, *::before {
   box-sizing: border-box;
 }
-
+html {
+  height: 100vh;
+}
 body {
   margin: 0;
+  height: 100%;
   background: linear-gradient(to right, #00aaff, #00ff6c);
+  display: grid;
+  place-items: center;
 }
